@@ -1,3 +1,10 @@
+/*************************************************************************
+**                                                                      **
+**    Programa que escriu calcula l'hipotenusa d'un triangle            **
+**                                                                      **
+*************************************************************************/
+//Raúl Martos
+
 float a=3;
 float b=4;
 float h;
@@ -7,7 +14,7 @@ void setup ()
   
   Serial.begin(9600);     // set up Serial library at 9600 bps
 
-  Serial.println("La hipotenusa es");
+  Serial.println("La hipotenusa es"); 
   Serial.print("a = ");
   Serial.println(a);
   Serial.print("b = ");
