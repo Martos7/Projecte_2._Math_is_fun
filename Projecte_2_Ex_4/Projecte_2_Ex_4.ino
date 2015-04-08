@@ -1,6 +1,6 @@
 /*************************************************************************
 **                                                                      **
-**    Programa que escriu "Hellow World" cada segon                     **
+**    Programa 4                                                        **
 **                                                                      **
 *************************************************************************/
 //Raúl Martos
@@ -21,7 +21,9 @@ void setup()             // run once, when the sketch starts
   Serial.println(" Megabytes!"); // I tot seguit escriu "Megabytes!"
 }
 
-void loop()     // we need this to be here even though its empty
+void loop()     
 {
 }
 
+
+// Solució corretgida canviant els int per long
